@@ -31,8 +31,6 @@ It makes sense to start here if:
 - **You need to run headless**, on a server, a NAS, or inside Docker, possibly as part of a larger pipeline.
 - **You want full control over which extensions get loaded** and from which registry, instead of relying on a fixed set baked into an app.
 
-If you just want a GUI for personal use, with no code involved, the [Mobile](https://github.com/mornyeapp/Mornye) app remain the simpler choice — this module is the building block those (and similar projects) can be built on top of.
-
 ---
 
 ## Features
