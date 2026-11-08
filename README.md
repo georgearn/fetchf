@@ -76,7 +76,6 @@ If you just want a GUI for personal use, with no code involved, the [Mobile](htt
 pip install mornye
 ```
 
-> **Important:** out of the box, Mornye does nothing but resolve metadata — it ships with **no built-in provider and no default extension source**. Before you can download anything, you need to point it at an extension registry of your own choosing and install at least one extension. See [Extensions](docs/guide/extensions.md#extensions) below.
 ---
 
 ## Documentation
