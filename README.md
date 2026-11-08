@@ -1,4 +1,3 @@
-# Mornye Python
 
 ## Disclaimer
 
