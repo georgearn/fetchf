@@ -1,20 +1,9 @@
 # Mornye Python
 
-Fetch track metadata and retrieve matching lossless audio through Tidal, Qobuz, Amazon Music and other provider backends — supplied entirely via extensions you choose and configure yourself. Integrate directly into your Python projects, build custom Telegram bots, automation tools, or bulk downloaders.
-
-[![GitHub stars](https://img.shields.io/github/stars/mornyeapp/Mornye-Python?color=ffcb47&labelColor=black&logo=github&label=Stars)](https://github.com/mornyeapp/Mornye-Python/stargazers)
-[![Latest release](https://img.shields.io/github/v/release/mornyeapp/Mornye-Python?color=8b5cf6&labelColor=black&logo=github&label=Latest%20Release)](https://github.com/mornyeapp/Mornye-Python/releases/latest)
-[![PyPI version](https://img.shields.io/pypi/v/mornye?logo=pypi&logoColor=ffffff&labelColor=000000&color=7b97ed)](https://pypi.org/project/mornye/)
-[![Python versions](https://img.shields.io/pypi/pyversions/mornye?logo=python&logoColor=ffffff&labelColor=000000&color=7b97ed)](https://pypi.org/project/mornye/)
-[![GitHub downloads](https://img.shields.io/github/downloads/mornyeapp/Mornye-Python/total?color=22c55e&labelColor=black&logo=github&label=Downloads)](https://github.com/mornyeapp/Mornye-Python/releases)
-[![PyPI downloads](https://img.shields.io/pepy/dt/mornye?logo=pypi&logoColor=ffffff&labelColor=000000)](https://pypi.org/project/mornye/)
-[![Telegram community](https://img.shields.io/badge/Telegram%20Community-369eff?labelColor=black&logo=telegram&logoColor=white)](https://t.me/mornyecommunity)
-
 ## Disclaimer
 
 This project is intended for **educational and personal use only**. The developer does not condone or encourage copyright infringement. The software is licensed under the [MIT License](https://github.com/mornyeapp/Mornye-Python/blob/main/LICENSE).
 
-**Mornye-Python** is an independent, third-party tool and is not affiliated with, endorsed by, or connected to Spotify, Tidal, Qobuz, Amazon Music, Deezer, or any other streaming service. It is also not affiliated with, and has no control over or responsibility for, any other project sharing a similar name on other platforms.
 
 No copyrighted content is hosted, stored, mirrored, or distributed by this repository. The core application does not bundle, ship, or default to any third-party extension, registry, or provider. Extensions are installed only if a user explicitly configures and requests them from a source of their own choosing; the maintainer has no control over, does not review, and assumes no responsibility for the content or behavior of third-party extensions or registries a user may choose to install.
 
@@ -30,13 +19,6 @@ The software is provided "as is", without warranty of any kind, express or impli
 
 If you are a copyright holder or an authorized representative and believe this repository infringes upon your rights, please contact the maintainer with sufficient detail (including relevant URLs and proof of ownership); the matter will be promptly investigated.
 
----
-
-> **Looking for a standalone app?**
->
-> - [Mornye (Mobile)](https://github.com/mornyeapp/Mornye) — Mornye for Android & iOS, maintained by [@zarzet](https://github.com/zarzet)
-> - [Mornye (Desktop)](https://github.com/mornyeapp/Mornye-Desktop) — Mornye for Windows, MacOS and Linux, maintained by [@zarzet](https://github.com/zarzet)
----
 
 ## Why Python (instead of the standalone apps)
 
@@ -123,21 +105,3 @@ renders it usefully. Every page below is the same text that used to be here.
 | [CLI](docs/guide/cli.md) | The standalone executables |
 
 Security policy and the reporting process: [SECURITY.md](SECURITY.md).
-
----
-
-## Want to support the project?
-
-If this software is useful and brings you value, consider supporting the project by buying us a coffee. Your support helps keep development going.
-
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bartolomeorusso9)
-
----
-
-## API Credits
-
-[MusicBrainz](https://musicbrainz.org) · [LRCLIB](https://lrclib.net) · [Musixmatch](https://www.musixmatch.com) · [iTunes Search API](https://itunes.apple.com)
-
-> Provider-specific credits (Tidal, Qobuz, Amazon Music, Deezer, SoundCloud, Apple Music, Pandora, and any third-party API used to reach them) now belong to whichever extension you install — see that extension's own documentation for its credits and terms.
->
-> **[!TIP]** Star the repo to show support, and click **Watch → Custom → Releases** on GitHub if you want to be notified as soon as a new release goes out.
